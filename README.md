@@ -1,4 +1,4 @@
-# Number of Decks
+#	Number of Decks  
 
 Polyglots and other polymaths tend to have dozens of decks. This little addon can help curb excesses. It adds a menu item to the <b>Tools</b> menu on the <b>Decks</b> screen, which allows one easily to determine one’s total number of decks.
 
