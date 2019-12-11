@@ -15,5 +15,6 @@ def deckCountFunction():
     showInfo("<br><b>You have %d decks.</b>" % deckCount)
 
 action = QAction("Number of Decks", mw)
+action.setShortcut("Alt+Ctrl+Shift+D")
 action.triggered.connect(deckCountFunction)
 mw.form.menuTools.addAction(action)
