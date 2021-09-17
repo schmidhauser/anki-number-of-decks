@@ -13,7 +13,7 @@ from aqt.utils import showInfo
 from aqt.qt import *
 
 def deckCountFunction():
-    deckCount = len(mw.col.decks.allNames())
+    deckCount = len(mw.col.decks.all_names_and_ids())
     showInfo("<br><b>You have %d decks.</b>" % deckCount)
 
 action = QAction("Number of Decks", mw)
